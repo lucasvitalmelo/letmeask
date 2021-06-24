@@ -13,6 +13,15 @@
       > img {
         max-height: 45px;
       }
+
+      > div {
+        display: flex;
+        gap: 16px;
+
+        button {
+          height: 40px;
+        }
+      }
     }
   }
 
@@ -41,6 +50,7 @@
         font-size: 14px;
       }
     }
+
     form {
       textarea {
         width: 100%;
@@ -78,9 +88,9 @@
         }
         
         > span {
-          font-size: 14px;
-          color: #737380;
-          font-weight: 500;
+            font-size: 14px;
+            color: #737380;
+            font-weight: 500;
           
           button {
             background: transparent;
@@ -93,6 +103,10 @@
           }
         }
       }
+    }
+
+    .question-list {
+      margin-top: 32px;
     }
   }
 }
